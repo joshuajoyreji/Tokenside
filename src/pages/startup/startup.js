@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './startup.css'
+import { Button } from 'reactstrap';
 
 const Startup = () => {
   return (
@@ -16,9 +17,28 @@ Oncolyze is offering securities through the use of an Offering Statement that ha
           </div>
           <div className='col-5'>
             <div className='offset-1'>
-              Valuation Price
+              <h5 className='rhs'>
+                Valuation Price : 5,000,000
+                <br/>
+                <br/>
+                Total tokens    : 10000
+              </h5>
             </div>
-
+            <br/>
+            <div class="col-8 offset-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <dl class="row">
+                                <dt class="col-6">Token price</dt>
+                                <dd class="col-6">:5000</dd>
+                                <dt class="col-6">No of tokens</dt>
+                                <dd class="col-6">:00</dd>
+                                <Button className='buy col-4 offset-4'>Buy Now</Button>
+                            </dl>
+                        </div>
+                    </div>
+                
+            </div>
           </div>
         </div>
       </div>

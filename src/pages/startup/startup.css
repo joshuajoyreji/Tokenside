@@ -4,3 +4,12 @@
     text-align: justify;
     border-right: 1px solid gray;
 }
+
+.rhs{
+    margin-top: 30px;
+}
+
+.buy{
+    background-color: purple;
+    margin-top: 20px;
+}

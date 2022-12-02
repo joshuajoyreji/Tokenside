@@ -1,5 +1,5 @@
 .heading{
-    background-color: white;
+ background-color:#fff;
     height: 400px;
     padding-top: 100px !important;
 }
@@ -8,7 +8,10 @@
     align-items: center;
 }
 .bod{
-    background-color: #D9D9D9;
-    height: 400px;
+    background-color: #b38ee1;
+    height: 480px;
     padding: 50px;
+}
+.Whole{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_PYfkdbg-qy7WhAjGnPiXXnj-yKlNd-_RPuE0aKdujAs0svL34gKVkMiQXDkwRgQuZrc&usqp=CAU");
 }

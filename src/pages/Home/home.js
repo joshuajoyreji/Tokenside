@@ -5,7 +5,7 @@ import './home.css';
 import Startinvbutton from '../../components/startinvbutton/startinvbutton.js';
 function Home(){
     return(
-        <div>
+        <div className='Whole'>
         <div className='container heading '>
             <div className='row row-header '>
                 <div className='col-6 offset-4'>

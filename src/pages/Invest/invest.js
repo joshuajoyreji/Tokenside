@@ -19,10 +19,13 @@ const Invest = () => {
               <div className='offset-1 col-5 mp'>
                 <h3>Most popular</h3>
                 <p>most searched companies</p>
+                <a href='/startup.js'>
                 <div className='startup col-8'>
                   <h4>TASL</h4>
                   Mobile app-based platform that rewards and gamifies safe driving behaviour
                 </div>
+                </a>
+                
                 <div className='startup col-8'>
                   <h4>Oncolyze</h4>
                   Biotech company aiming to treat cancer by exploding cancer cells

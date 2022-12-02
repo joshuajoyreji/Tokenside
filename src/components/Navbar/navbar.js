@@ -15,7 +15,7 @@ return (
 		<Bars />
 
 		<NavMenu>
-		<NavLink to='/TokenSide' activeStyle>
+		<NavLink to='/' activeStyle>
 			Tokenside
 		</NavLink>
 		<NavLink to='/invest' activeStyle>
@@ -26,7 +26,7 @@ return (
 		</NavLink>
 		<NavLink to='/signup' activeStyle>
 			Signup
-		</NavLink>
+		</NavLink> 
 		</NavMenu>
 		<NavBtn>
 		<NavBtnLink to='/signin'>Sign In</NavBtnLink>

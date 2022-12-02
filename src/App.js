@@ -19,7 +19,7 @@ return (
   		 <Route path='/invest' element={<Invest/>} />
   		 <Route path='/signin' element={<Signin/>} />
   		 <Route path='/signup' element={<Signup/>} />
-		   <Route path='/startup' element={<Startup/>} />
+		   <Route path='/startup/:id' element={<Startup/>} />
 		   <Route path='/createstartup' element={<CreateStartup/>}/>
   	</Routes>
     </BrowserRouter>

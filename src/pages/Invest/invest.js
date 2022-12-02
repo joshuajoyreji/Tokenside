@@ -42,14 +42,14 @@ const [startData, setData] = useState({});
               <div className='offset-1 col-5 mp'>
                 <h3>Most popular</h3>
                 <p>most searched companies</p>
-                <a href='/startup'>
+                <a href='/startup/0'>
                 <div className='startup col-8'>
                   <h4>{startData[0]?.name} </h4>
                   {startData[0]?.description}
                 </div>
                 </a>
                 
-                <a>
+                <a href='/startup/1'>
                 <div className='startup col-8'>
                   <h4>{startData[1]?.name}</h4>
                  {startData[1]?.description}
@@ -66,3 +66,4 @@ const [startData, setData] = useState({});
 }
 
 export default Invest;
+

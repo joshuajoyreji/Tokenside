@@ -15,7 +15,10 @@ function Home(){
             </div>
             <div className='row'>
                 <div className='offset-6'>
+                    <a href='/createstartup'>
                     <Createbutton />
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -35,7 +38,9 @@ function Home(){
             </div>
             <div className='row'>
                 <div className='offset-1'>
+                <a href='/invest'>
                     <Startinvbutton />
+                </a>
                 </div>
                 
             </div>

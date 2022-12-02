@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './invest.css';
 
 const Invest = () => {
+
   return (
     <div className='whole'>
         <div className='container'>
@@ -19,17 +20,15 @@ const Invest = () => {
               <div className='offset-1 col-5 mp'>
                 <h3>Most popular</h3>
                 <p>most searched companies</p>
-                <a href='/startup.js'>
                 <div className='startup col-8'>
                   <h4>TASL</h4>
                   Mobile app-based platform that rewards and gamifies safe driving behaviour
                 </div>
-                </a>
-                
+                <a href='/startup' className='st'>
                 <div className='startup col-8'>
                   <h4>Oncolyze</h4>
                   Biotech company aiming to treat cancer by exploding cancer cells
-                </div>
+                </div></a>
               </div>
           </div>
           <div className='row'>

@@ -5,7 +5,8 @@ import Home from './pages/Home/home';
 import Invest from './pages/Invest/invest'; 
 import Signup from './pages/Signup/signup'; 
 import Navbar from './components/Navbar/navbar';
-import Signin from './pages/Signin/signin';
+import Signin from './pages/Signin/signin'; 
+import Startup from './pages/startup/startup';
 function App() {
 return (
   <div className="App">
@@ -17,6 +18,7 @@ return (
   		 <Route path='/invest' element={<Invest/>} />
   		 <Route path='/signin' element={<Signin/>} />
   		 <Route path='/signup' element={<Signup/>} />
+		   <Route path='/startup' element={<Startup/>} />
   	</Routes>
     </BrowserRouter>
   </div>

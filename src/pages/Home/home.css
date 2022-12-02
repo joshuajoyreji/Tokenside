@@ -1,0 +1,8 @@
+.heading{
+    background-color: #E368F8;
+    height: 500px;
+}
+.vertical-center {  
+    display: flex;
+    align-items: center;
+}

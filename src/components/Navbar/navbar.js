@@ -15,21 +15,18 @@ return (
 		<Bars />
 
 		<NavMenu>
+		<NavLink to='/TokenSide' activeStyle>
+			Tokenside
+		</NavLink>
 		<NavLink to='/invest' activeStyle>
-			About
+			Invest
 		</NavLink>
 		<NavLink to='/browse' activeStyle>
-			Events
-		</NavLink>c
+			Browse
+		</NavLink>
 		<NavLink to='/signup' activeStyle>
-			Teams
+			Signup
 		</NavLink>
-		<NavLink to='/TokenSide' activeStyle>
-			Teams
-		</NavLink>
-		
-		{/* Second Nav */}
-		{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
 		</NavMenu>
 		<NavBtn>
 		<NavBtnLink to='/signin'>Sign In</NavBtnLink>

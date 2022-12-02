@@ -2,10 +2,14 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './startup.css'
 import { Button } from 'reactstrap';
+import oncolyze from './oncolyze.jpeg'
 
 const Startup = () => {
   return (
     <div className='whole'>
+      <div className='container'>
+        <img src={oncolyze} alt='oncolyze' className='image'/>
+      </div>
       <div className='container'>
         <div className='row'>
           <div className='col-7'>

@@ -27,6 +27,7 @@ function Home(){
                 </div>
                 
             </div>
+            <br/>
             <div className='row'>
                 <div className='col-5 offset-1'>
                     <p>Our platform provides an opportunity to anyone who is intereseted in invensting in startups</p>

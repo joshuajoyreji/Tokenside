@@ -1,7 +1,7 @@
 .heading{
     background-color: white;
-    height: 500px;
-    padding-top: 200px;
+    height: 400px;
+    padding-top: 100px !important;
 }
 .vertical-center {  
     display: flex;
@@ -9,4 +9,6 @@
 }
 .bod{
     background-color: #D9D9D9;
+    height: 400px;
+    padding: 50px;
 }

@@ -5,6 +5,7 @@ import Home from './pages/Home/home';
 import Invest from './pages/Invest/invest'; 
 import Signup from './pages/Signup/signup'; 
 import Navbar from './components/Navbar/navbar';
+import Signin from './pages/Signin/signin';
 function App() {
 return (
   <div className="App">
@@ -14,7 +15,7 @@ return (
   		<Route path='/' element={<Home/>} />
       <Route path='/browse' element={<h1>browse</h1>} />
   		 <Route path='/invest' element={<Invest/>} />
-  		 <Route path='/signin' element={<h1>browse</h1>} />
+  		 <Route path='/signin' element={<Signin/>} />
   		 <Route path='/signup' element={<Signup/>} />
   	</Routes>
     </BrowserRouter>

@@ -28,7 +28,7 @@ const addData = (e)=>{
 
 async function signup(){
   await axios
-      .post(`${baseURL}/signin`, {
+      .post(`${baseURL}/signup`, {
         name: logdata.name,
         username: logdata.username,
         password: logdata.password

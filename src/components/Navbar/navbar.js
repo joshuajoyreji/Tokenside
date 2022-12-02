@@ -5,7 +5,7 @@ const Navbar = ()=>{
 	<div class="nav">
   	<div class="nav-header">
     	<div class="nav-title">
-      	TOKENSIDE
+      	<a href="/" target="_self">TOKENSIDE</a>
     	</div>
  	 </div>
   	<div class="nav-btn">

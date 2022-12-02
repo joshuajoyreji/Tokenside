@@ -7,6 +7,7 @@ import Signup from './pages/Signup/signup';
 import Navbar from './components/Navbar/navbar';
 import Signin from './pages/Signin/signin'; 
 import Startup from './pages/startup/startup';
+import CreateStartup from './pages/CreateStartup/createstartup';
 function App() {
 return (
   <div className="App">
@@ -19,6 +20,7 @@ return (
   		 <Route path='/signin' element={<Signin/>} />
   		 <Route path='/signup' element={<Signup/>} />
 		   <Route path='/startup' element={<Startup/>} />
+		   <Route path='/createstartup' element={<CreateStartup/>}/>
   	</Routes>
     </BrowserRouter>
   </div>

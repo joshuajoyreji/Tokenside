@@ -1,8 +1,30 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react'
+import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.css';
 import './invest.css';
 
+const baseURL = "http://localhost:8000/api"
+
 const Invest = () => {
+
+  // const [startData, setData] = useState({
+  //   name:"",
+  //   description:"",
+  //   funding:"",
+  //   tokenCount:"",
+  //   tokenVal:""
+  // })  
+  const [startData, setData] = useState(null) 
+
+ useEffect(()=>{
+    axios.get(`${baseURL}/startup`).then((response)=>{
+    setData(response.data);
+  });
+ })
+    
+
+
+
   return (
     <div className='whole'>
         <div className='container'>
@@ -21,14 +43,14 @@ const Invest = () => {
                 <p>most searched companies</p>
                 <a href='/startup.js'>
                 <div className='startup col-8'>
-                  <h4>TASL</h4>
-                  Mobile app-based platform that rewards and gamifies safe driving behaviour
+                  <h4>{startData[0].name}</h4>
+                 {startData[0].description}
                 </div>
                 </a>
                 
                 <div className='startup col-8'>
-                  <h4>Oncolyze</h4>
-                  Biotech company aiming to treat cancer by exploding cancer cells
+                  <h4>{startData[1].name}</h4>
+                 {startData[1].description}
                 </div>
               </div>
           </div>

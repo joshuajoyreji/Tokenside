@@ -2,6 +2,7 @@ import React from 'react';
 import Createbutton from '../../components/createbutton/createbutton.js';
 import 'bootstrap/dist/css/bootstrap.css';
 import './home.css';
+import Startinvbutton from '../../components/startinvbutton/startinvbutton.js';
 function Home(){
     return(
         <div>
@@ -31,7 +32,12 @@ function Home(){
                     <p>Our platform provides an opportunity to anyone who is intereseted in invensting in startups</p>
                 </div>
             </div>
-            
+            <div className='row'>
+                <div className='offset-1'>
+                    <Startinvbutton />
+                </div>
+                
+            </div>
                 
         </div>
         </div>

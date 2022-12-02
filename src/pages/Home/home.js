@@ -13,13 +13,13 @@ function Home(){
                 
             </div>
             <div className='row'>
-                <div className='offset-4'>
+                <div className='offset-6'>
                     <Createbutton />
                 </div>
                 
             </div>
         </div>
-        <div className='container'>
+        <div className='container bod'>
             <div className='row'>
                 <div className='col-5'>
                     <h3>A platform where anyone can invest on a startup</h3>

@@ -1,8 +1,12 @@
 .heading{
-    background-color: #E368F8;
+    background-color: white;
     height: 500px;
+    padding-top: 200px;
 }
 .vertical-center {  
     display: flex;
     align-items: center;
+}
+.bod{
+    background-color: #D9D9D9;
 }

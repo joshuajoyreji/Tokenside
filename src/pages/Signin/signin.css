@@ -4,6 +4,7 @@
     box-sizing: border-box;
   }
   body {
+    background-color: rgb(219, 217, 217);
     background-size: cover;
     font-family: sans-serif;
   }
@@ -21,7 +22,7 @@
     padding: 80px 40px 40px;
     background: rgba(96,39,117, 1);
     border-radius: 10px;
-    color: #fff;
+    color: #ffff;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
   }
   .form::before {

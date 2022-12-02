@@ -7,7 +7,7 @@ export default class Startinvbutton extends React.Component {
   render() {
     return (
       <div>
-        <Button className='start' >Start invensting</Button>
+        <Button className='start' >Start Invensting</Button>
       </div>
     );
   }

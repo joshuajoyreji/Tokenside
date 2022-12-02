@@ -21,7 +21,7 @@ const Navbar = ()=>{
   <div class="nav-links">
     <a href="/invest" target="_self">Invest</a>
     <a href="/browse" target="_self">Browse</a>
-    <Link onClick={()=>{localStorage.removeItem("token");window. location. reload();}} to="/">
+    <Link onClick={()=>{localStorage.removeItem("token");window. location.href = "/";}} to="/">
       Logout
     </Link>
   </div>
@@ -33,7 +33,7 @@ else{
     <div class="nav">
       <div class="nav-header">
         <div class="nav-title">
-          TOKENSIDE
+        <a href="/" target="_self">TOKENSIDE</a>
         </div>
       </div>
       <div class="nav-btn">

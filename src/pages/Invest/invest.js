@@ -6,6 +6,26 @@ import './invest.css';
 const baseURL = "http://localhost:8000/api"
 
 const Invest = () => {
+
+  // const [startData, setData] = useState({
+  //   name:"",
+  //   description:"",
+  //   funding:"",
+  //   tokenCount:"",
+  //   tokenVal:""
+  // })  
+const [startData, setData] = useState({});
+
+ useEffect(()=>{
+  fetchData();
+ },[])
+ async function fetchData(){
+  await axios.get(`${baseURL}/startup`).then((response)=>{
+    setData(response.data);
+});
+}
+
+ console.log(startData)
   return (
     <div className='whole'>
         <div className='container'>
@@ -22,15 +42,19 @@ const Invest = () => {
               <div className='offset-1 col-5 mp'>
                 <h3>Most popular</h3>
                 <p>most searched companies</p>
+                <a href='/startup'>
                 <div className='startup col-8'>
-                  <h4>{startData[0].name}</h4>
-                 {startData[0].description}
+                  <h4>{startData[0]?.name} </h4>
+                  {startData[0]?.description}
                 </div>
-                <a href='/startup' className='st'>
+                </a>
+                
+                <a>
                 <div className='startup col-8'>
-                  <h4>Oncolyze</h4>
-                  Biotech company aiming to treat cancer by exploding cancer cells
+                  <h4>{startData[1]?.name}</h4>
+                 {startData[1]?.description}
                 </div>
+                </a>
               </div>
           </div>
           <div className='row'>

@@ -1,0 +1,20 @@
+.heading{
+ background-color:#fff;
+    height: 400px;
+    padding-top: 100px !important;
+}
+.vertical-center {  
+    display: flex;
+    align-items: center;
+}
+.bod{
+    background-color: #b38ee1;
+    height: 480px;
+    padding: 50px;
+}
+.Whole{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_PYfkdbg-qy7WhAjGnPiXXnj-yKlNd-_RPuE0aKdujAs0svL34gKVkMiQXDkwRgQuZrc&usqp=CAU");
+}
+.fnt{
+    font-size: 20px;
+}
